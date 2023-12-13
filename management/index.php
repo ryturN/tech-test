@@ -292,12 +292,13 @@ $_SESSION['start_time'] = time();
                         $tampil=mysqli_query($conn,"select * from status_driver where status='pending' order by id desc");;
                         while($data1=mysqli_fetch_array($tampil)){
                         ?>
-                                <ul class="list-group teammates">
-                                    <li class="list-group-item">
-                                        <a href="anggota.php"><img src="<?php echo $data1['foto']; ?>" width="50" height="50" style="border: 3px solid #555555;"></a>
-                                        <a href="anggota.php"><?php echo $data1['nama']; ?></a>
-                                    </li>
-                                </ul>
+                        
+                        <ul class="list-group teammates">
+                <li class="list-group-item">
+                    <a href="anggota.php"><?php echo $data1['nama']; ?></a>
+                    <span class="badge"><?php echo $data1['approval_count']; ?> approvals</span>
+                </li>
+            </ul>
                                <?php } ?>
                                 <div class="panel-footer bg-white">
                                     <!-- <span class="pull-right badge badge-info">32</span> -->
