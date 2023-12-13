@@ -15,7 +15,7 @@
 - Framework : PHP Native
 
 ## Install
-```git clone <link>```
+```git clone https://github.com/ryturN/tech-test.git```
 
 copy paste filenya ke htdoc.
 buka xampp , jalankan apache & mysql
