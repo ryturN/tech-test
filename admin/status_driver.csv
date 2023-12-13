@@ -1,0 +1,9 @@
+ID,"No Anggota",Nama,"Merk Kendaraan","Type Kendaraan","Tanggal Pemesanan","Tanggal Selesai",Status
+1,P67890,Putri,Hino,"FM 280 JD",2023-12-13,1222-12-31,active
+2,O56789,Oki,Hino,"FM 280 JD",2023-12-13,2142-03-21,pending
+3,N45678,Nina,Hino,"FM 280 JD",2023-12-13,0000-00-00,pending
+4,M34567,Mega,"Mitsubishi Colt Diesel","FE 71 HDX",2023-12-13,0000-00-00,pending
+5,I90123,Indah,Isuzu,"NMR71 T SDL",2023-12-13,2024-12-24,active
+6,L23456,Latief,Hino,"FM 280 JD",2023-12-13,2332-02-21,active
+7,K12345,Karina,Hino,"FM 280 JD",2023-12-13,1422-02-04,active
+8,J01234,Joko,Hino,"FM 280 JD",2023-12-13,2222-12-04,active
