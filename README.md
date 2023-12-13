@@ -23,7 +23,7 @@ buatlah database dengan nama db_carorder
 import file db_carorder.sql ke localhost phpmyadmin
 
 ## Penggunaan Aplikasi
-
+ Buka Browser , Kemudian buka link http://localhost/tech-test/login.html
 **Buat Pemesanan**</br><br>
 Login menggunakan akun admin , kemudian pada bagian dashboard terdapat form untuk membuat pemesanan, pilih nama dan pilih kendaraan , dan finish date , kemudian click tombol 'Order Car'.
 
