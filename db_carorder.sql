@@ -123,7 +123,8 @@ CREATE TABLE IF NOT EXISTS `management` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `management` (`user_id`, `username`, `password`, `fullname`, `gambar`) VALUES
-(1, 'management', 'management', 'Management Approve', 'gambar_admin/male.jpg');
+(1, 'management', 'management', 'Management Approve', 'gambar_admin/male.jpg'),
+(2, 'management2', 'management', 'Management Approve2', 'gambar_admin/male.jpg');
 -- --------------------------------------------------------
 
 --
@@ -141,6 +142,12 @@ CREATE TABLE IF NOT EXISTS `status_driver` (
   `status` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+
+CREATE TABLE approvals (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    driver_name VARCHAR(255) NOT NULL,
+    username VARCHAR(255) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
 --
 -- Dumping data for table `status_driver`
 --
