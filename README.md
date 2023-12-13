@@ -9,6 +9,9 @@
 - username : management
 - password : management
 
+## username Management2
+- username : management2
+- password : management
 ## Informasi Teknis:
 - Database Version : MySQL
 - PHP Version : 8
