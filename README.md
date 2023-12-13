@@ -30,6 +30,9 @@ Login menggunakan akun admin , kemudian pada bagian dashboard terdapat form untu
 **Approve pemesanan**</br></br>
 Logout akun , kemudian login lagi menggunakan account Management , kemudian pada bagian dashboard terdapat form untuk mengapprove pemesanan. kemudian pencet tombol approve pemesanan.
 
+**Approve pemesanan**<br><br>
+Logout Akun management, kemudian login lagi menggunakan account management2 , dan lakukan seperti sebelumnya
+
 **Ekstrak semua pemesanan ke excel**</br>
 Pada bagian menu sebelah kiri , pilih Laporan > laporan pemesanan, click tombol Export to CSV , tunggu hingga selesai download. buka file
 
